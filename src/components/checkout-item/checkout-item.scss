@@ -1,0 +1,29 @@
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #383838;
+
+  & > div {
+    width: 20%;
+    text-align: left;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .checkout-remove span {
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  .quantity {
+    padding: 0 10px;
+  }
+}
+
+i.fa-solid {
+  cursor: pointer;
+}
